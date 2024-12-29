@@ -8,7 +8,7 @@ enum TrainingError: Error {
 }
 
 @Observable
-class LinearRegressionModel {
+@MainActor class LinearRegressionModel {
     
     var b: Float?
     var m: Float?
